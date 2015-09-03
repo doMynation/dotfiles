@@ -1,0 +1,110 @@
+* Fields of expertise
+- ERP development
+- CMS development
+- Microservices development
+- API development
+
+* Frontend
+ - Languages
+   - HTML
+   - CSS
+   - Less
+   - Javascript
+ - 
+ - Frameworks / Libraries
+   - jQuery
+   - Angular JS [1.4]
+   - Bootstrap 3
+   - Jasmine
+ - Real time applications with WebSocket
+ - Pusher
+ - 
+ - Unit testing (Karma + Jasmine))
+ - Tools
+   - Gulp
+   - Bower
+   - npm
+ - 
+ - Optimization
+   - Script and styles minification
+   - Lazy loading
+   - Assets compression
+ - Design / Trends
+   - Material design
+
+
+* Backend
+ - PHP [5.3, 5.4, 5.5, 5.6, 7.0]
+ - CodeIgniter
+ - Laravel [4.2, 5.0, 5.1]
+ - Lumen
+ - Silex
+ - Symfony components
+ - Doctrine DBAL
+ - Doctrine ORM
+ - Composer
+ - Caching (APC, File)
+ - Third party integrations
+   - Rackspace Cloud
+     - Cloud files (CDN)
+     - Cloud server
+   - Stripe (Payment Gateway)
+   - Pusher (WebSocket)
+ - MySQL
+ - Optimization
+   - Database optimization 
+   - Database normalization
+ - Unit testing (PHPUnit)
+ - Code coverage
+
+* Dev-ops
+ - Apache 2
+ - Nginx
+ 
+ - Ubuntu
+ - Debian
+ - Arch Linux
+ - CLI / Bash
+ - Server administration
+ - Vagrant
+
+* Collaboration / project hosting
+- Git
+- Subversion
+
+- Springloops
+- Bitbucket
+- Github
+- Travis CI
+- Coverall (Code coverage)
+- GitFlow (Git collaboration workflow)
+
+
+* Agile & software engineering
+- Continuous integration
+  - Automated deployment
+  - Automated tests
+  - Code coverage
+- Iterative development
+- Test driven development (TDD)
+- Behavior driven development (BDD)
+- Domain driven design (DDD)
+- Oriented object programing (OOP)
+- Command Query Responsiblity Segregation (CQRS)
+- Event sourcing
+- Requirements analysis (UML)
+- Design patterns
+- Architectural patterns (MVC)
+- SOLID
+
+* Editors
+ - PHPStorm 9 [with Vim bindings]
+ - Sublime Text 3 [with Vim bindings]
+ - Vim
+ - Emacs [with Vim bindings)
+
+* Standards
+ - PSR-1 (Coding)
+ - PSR-2 (Code style)
+ - PSR-4 (Folder structure)
+ - PSR-7 (Logging)
