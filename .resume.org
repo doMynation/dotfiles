@@ -106,5 +106,6 @@
 * Standards
  - PSR-1 (Coding)
  - PSR-2 (Code style)
- - PSR-4 (Folder structure)
- - PSR-7 (Logging)
+ - PSR-3 (Logging)
+ - PSR-4 (Autoloading)
+
