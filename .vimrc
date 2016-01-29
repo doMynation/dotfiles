@@ -16,8 +16,8 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 syntax enable
-colorscheme solarized
-let g:solarized_termcolors=256
+" colorscheme solarized
+" let g:solarized_termcolors=256
 set background=dark
 set t_Co=256 
 set laststatus=2

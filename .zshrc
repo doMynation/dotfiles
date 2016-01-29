@@ -85,6 +85,8 @@ source $ZSH/oh-my-zsh.sh
 
 # export TERM=screen-256color-bce
 
+alias sudo="sudo "
 alias ll="ls -auxlh"
 alias sys="sudo systemctl"
 alias cls="clear"
+alias pac="pacman"

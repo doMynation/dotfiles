@@ -12,29 +12,27 @@
    ;; of a list then all discovered layers will be installed.
    dotspacemacs-configuration-layers
    '(
-     ;; ----------------------------------------------------------------
-     ;; Example of useful layers you may want to use right away.
-     ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
-     ;; <M-m f e R> (Emacs style) to install them.
-     ;; ----------------------------------------------------------------
-     auto-completion
-     ;; better-defaults
+    (auto-completion :variables
+                auto-completion-enable-help-tooltip t
+                auto-completion-enable-snippets-in-popup t)
+     better-defaults
      emacs-lisp
      git
      ;; markdown
-     org
-     ;; (shell :variables
-     ;;        shell-default-height 30
-     ;;        shell-default-position 'bottom)
-     ;; syntax-checking
+     ;; org
+     (shell :variables
+            shell-default-height 30
+            shell-default-position 'bottom)
+     syntax-checking
      version-control
+     ;; rcirc
      erc
      html
      javascript
      php
-     shell
      eyebrowse
-     ;; test
+     scala
+     spotify
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
@@ -127,7 +125,7 @@ before layers configuration."
    dotspacemacs-loading-progress-bar t
    ;; If non nil the frame is fullscreen when Emacs starts up.
    ;; (Emacs 24.4+ only)
-   dotspacemacs-fullscreen-at-startup nil
+   dotspacemacs-fullscreen-at-startup t
    ;; If non nil `spacemacs/toggle-fullscreen' will not use native fullscreen.
    ;; Use to disable fullscreen animations in OSX."
    dotspacemacs-fullscreen-use-non-native nil
@@ -180,10 +178,13 @@ before layers configuration."
   (key-chord-define evil-insert-state-map  "jj" 'evil-normal-state)
   ;; ---------------------------------------------------------------------------
 
-
   (setq browse-url-browser-function 'browse-url-generic
         engine/browser-function 'browse-url-generic
         browse-url-generic-program "firefox")
+
+  (setq-default line-spacing 10)
+  ;; (setq erc-fill-mode nil)
+  (setq erc-fill-column (- (window-width) 2))
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
