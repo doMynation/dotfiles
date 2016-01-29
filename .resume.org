@@ -3,46 +3,49 @@
 - CMS development
 - Microservices development
 - API development
+- Game development
 
 * Frontend
  - Languages
    - HTML
    - CSS
    - Less
-   - Javascript
+   - Javascript (ES5, ES6, ES7)
  - 
  - Frameworks / Libraries
-   - jQuery
-   - Angular JS [1.4]
-   - Bootstrap 3
-   - Jasmine
- - Real time applications with WebSocket
- - Pusher
+   - jQuery 2
+   - Angular 1.4
+   - React 
+   - ImmutableJS 
+ - Websocket programming
  - 
- - Unit testing (Karma + Jasmine))
+ - Testing
+   - Jasmine
+   - Mocha
+   - Chai
+   - Karma
+ - 
  - Tools
+   - npm
+   - Webpack
    - Gulp
    - Bower
-   - npm
- - 
- - Optimization
-   - Script and styles minification
-   - Lazy loading
-   - Assets compression
+   - Babel
+ -
  - Design / Trends
    - Material design
+   - Bootstrap 3
 
 
 * Backend
  - PHP [5.3, 5.4, 5.5, 5.6, 7.0]
- - CodeIgniter
  - Laravel [4.2, 5.0, 5.1]
  - Lumen
+ - CodeIgniter
  - Silex
  - Symfony components
  - Doctrine DBAL
  - Doctrine ORM
- - Composer
  - Caching (APC, File)
  - Third party integrations
    - Rackspace Cloud
@@ -56,6 +59,8 @@
    - Database normalization
  - Unit testing (PHPUnit)
  - Code coverage
+ - Tools
+   - Composer
 
 * Dev-ops
  - Apache 2
@@ -98,10 +103,10 @@
 - SOLID
 
 * Editors
- - PHPStorm 9 [with Vim bindings]
- - Sublime Text 3 [with Vim bindings]
- - Vim
- - Emacs [with Vim bindings)
+ - PHPStorm 10 [with IdeaVim]
+ - Sublime Text 3 [with Vintageous]
+ - Vim [Best editor in the world]
+ - Emacs [with Evil Mode]
 
 * Standards
  - PSR-1 (Coding)
