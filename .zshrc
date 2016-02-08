@@ -90,3 +90,8 @@ alias ll="ls -auxlh"
 alias sys="sudo systemctl"
 alias cls="clear"
 alias pac="pacman"
+alias vreload="vagrant reload"
+alias vup="vagrant up"
+alias vhalt="vagrant halt"
+alias vssh="vagrant ssh"
+
