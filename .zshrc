@@ -94,4 +94,12 @@ alias vreload="vagrant reload"
 alias vup="vagrant up"
 alias vhalt="vagrant halt"
 alias vssh="vagrant ssh"
+alias todo="vim ~/todo.txt"
+alias clip="xclip -sel clip <"
+alias editzsh="vim ~/.zshrc"
+alias editbash="vim ~/.bashrc"
+
+# GIT
+alias gclone="git clone"
+
 
