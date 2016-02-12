@@ -1,4 +1,21 @@
 alias ..="cd .."
-alias ll="ls -auxl"
-alias dotfiles="cd /usr/share/dotfiles"
+alias sudo="sudo "
+alias ll="ls -auxlh"
+alias sys="sudo systemctl"
+alias dotfiles="cd ~/dotfiles"
 alias cls="clear"
+alias pac="pacman"
+alias todo="vim ~/todo.txt"
+alias clip="xclip -sel clip <"
+alias editzsh="vim ~/.zshrc"
+alias editbash="vim ~/.bashrc"
+
+# GIT
+alias gclone="git clone"
+
+# Vagrant
+alias vreload="vagrant reload"
+alias vup="vagrant up"
+alias vhalt="vagrant halt"
+alias vssh="vagrant ssh"
+
