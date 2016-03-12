@@ -92,12 +92,17 @@ alias dotfiles="cd ~/dotfiles"
 alias cls="clear"
 alias pac="pacman"
 alias todo="vim ~/todo.txt"
+alias scratch="vim ~/scratchpad.txt"
 alias clip="xclip -sel clip <"
 alias editzsh="vim ~/.zshrc"
 alias editbash="vim ~/.bashrc"
+alias sourcezsh="source ~/.zshrc"
+alias sourcebash="source ~/.bashrc"
 
 # GIT
 alias gclone="git clone"
+alias gcommit="git commit -m"
+
 
 # Vagrant
 alias vreload="vagrant reload"
