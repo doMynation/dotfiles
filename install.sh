@@ -2,6 +2,9 @@
 
 BACKUP_DIR_NAME="~/.dfbackups"
 
+# INSTALL VUNDLE FOR VIM
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 # CREATE A BACKUP FOLDER ONLY IF IT DOESN'T EXIST ALREADY
 if [ ! -d "$BACKUP_DIR_NAME$" ]; then
     mkdir ~/.dfbackups
