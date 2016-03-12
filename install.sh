@@ -39,4 +39,13 @@ ln -s "`pwd`/.zshrc" ~/.zshrc
 ln -s "`pwd`/.tmux.conf" ~/.tmux.conf
 ln -s "`pwd`/.vimperatorrc" ~/.vimperatorrc
 
+# SOURCE SHELL FILES
+
+if [ -f ~/.dfbackups/.zshrc ]; then
+    source ~/.zshrc
+fi
+
+source ~/.bashrc
+
+
 echo "DONE"
