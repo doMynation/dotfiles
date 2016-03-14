@@ -98,6 +98,8 @@ alias editzsh="vim ~/.zshrc"
 alias editbash="vim ~/.bashrc"
 alias sourcezsh="source ~/.zshrc"
 alias sourcebash="source ~/.bashrc"
+alias editphpini="sudo vim /etc/php/7.0/fpm/php.ini"
+alias downloads="cd ~/Downloads"
 
 # GIT
 alias gclone="git clone"
