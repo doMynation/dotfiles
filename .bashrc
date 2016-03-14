@@ -9,6 +9,8 @@ alias todo="vim ~/todo.txt"
 alias clip="xclip -sel clip <"
 alias editzsh="vim ~/.zshrc"
 alias editbash="vim ~/.bashrc"
+alias editphpini="sudo vim /etc/php/7.0/fpm/php.ini"
+alias downloads="cd ~/Downloads"
 
 # GIT
 alias gclone="git clone"
