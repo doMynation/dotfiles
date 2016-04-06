@@ -3,8 +3,8 @@
 BACKUP_DIR_NAME="~/.dfbackups"
 
 # CREATE A BACKUP FOLDER ONLY IF IT DOESN'T EXIST ALREADY
-mkdir -p $BACKUP_DIR_NAME
-echo "created backup dir $BACKUP_DIR_NAME..."
+mkdir -p ~/.dfbackups
+echo "created backup dir ~/.dfbackups..."
 echo "created backups in $BACKUP_DIR_NAME..."
 
 # BACKUP EXISTING FILES
