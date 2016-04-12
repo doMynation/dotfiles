@@ -112,3 +112,6 @@ alias vup="vagrant up"
 alias vhalt="vagrant halt"
 alias vssh="vagrant ssh"
 
+# Artisan (Laravel)
+alias art="php artisan"
+
