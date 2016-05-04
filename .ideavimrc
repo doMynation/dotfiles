@@ -1,0 +1,9 @@
+# Better escape
+inoremap jk <Esc>
+inoremap kj <Esc>
+
+# Case insensitive search
+set ic
+
+nnoremap <S-H> ^
+nnoremap <S-L> $
